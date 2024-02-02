@@ -16,3 +16,10 @@ function otherFunction(){
     document.getElementById("electronicDevice2").innerHTML= "Name of Product: " + decvice2.productName2() + "<br>"
     + "initial price: $" + decvice2.price2 + "<br>" + "tax: $" + tax + "<br>" + "final price: $" + finalPrice;
 }
+
+function statement(a,b){
+    return a + " " + b;
+}
+let welcome = statement ("welecome","user");
+document.getElementById("welcome").innerHTML = welcome;
+
